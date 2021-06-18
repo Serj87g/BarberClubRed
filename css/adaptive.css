@@ -1,0 +1,488 @@
+
+
+@media screen and (max-width: 1800px) {
+    #main #club {
+        right: 0;
+    }
+    #main #barber {
+        left: 0;
+    }
+}
+@media screen and (max-width: 1220px) {
+    #menu {
+        margin: 0 20px;
+    }
+    #main-container #menu a {
+        margin: 0 10px;
+    }
+    #price .price-container {
+        margin-top: 40px;
+        text-align: center;
+    }
+    #price .price-container .solid-button {
+        margin-left: 0;
+    }
+    #price #category-container {
+        margin-left: 35px;
+    }
+    #price .haircuts-left {
+        margin: 0 auto;
+        text-align: left;
+    }
+    #price .haircuts-right {
+        position: unset;
+    }
+    #price .haircuts-right {
+        text-align: center;
+    }
+    #instagram #instagram-top {
+        text-align: center;
+        justify-content: center;
+    }
+    #instagram #instagram-top-right {
+        margin-top: 40px;
+    }
+    #popup-form .form-man {
+        position: absolute;
+        bottom: 0;
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    body #main-container {
+        padding-bottom: 160px;
+    }
+    #header .phone-number {
+        display: none;
+    }
+    #main #club {
+        width: 400px;
+        top: -60px;
+    }
+    #main #barber {
+        width: 400px;
+        bottom: -150px;
+    }
+    #main #main-left {
+        z-index: 5;
+    }
+    #main #main-right img {
+        right: calc(50% - 413px);
+        width: 37%;
+        top: 95px;
+        z-index: 1;
+        opacity: 0.5;
+    }
+    #about #about-top {
+        flex-wrap: wrap;
+    }
+    #about #about-top {
+        justify-content: center;
+        text-align: center;
+    }
+    #about #about-right {
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    #about #about-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #discount {
+        flex-wrap: wrap;
+    }
+    #masters .slick-masters-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #masters .slick-list {
+        height: 510px !important;
+    }
+    #masters .slick-name {
+        left: 45px;
+    }
+    #masters .slick-masters-container div.slick-button {
+        right: 70px;
+    }
+    div#discount {
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    #discount #discount-title {
+        margin-top: 0;
+    }
+    #discount #discount-right {
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    #instagram #instagram-red {
+        margin-left: 15px;
+    }
+    #footer-top #footer-left {
+        display: block;
+        box-sizing: border-box;
+        padding: 32px 20px;
+        max-width: 100%;
+    }
+    #footer-right {
+        display: block;
+        width: 100%;
+    }
+    #footer-right iframe {
+        width: 100%;
+    }
+    #popup-form #popup-form-container {
+        width: 1005px;
+    }
+    #popup-discount #popup-discount-container {
+        width: 875px;
+    }
+    #popup-thanks #popup-thanks-container {
+        width: 875px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    #main #barber {
+        bottom: -120px;
+    }
+    #main #main-right {
+        text-align: center;
+    }
+    #popup-form #popup-form-container {
+        width: 659px;
+        top: 50px;
+        margin: 0 auto;
+        left: 0;
+    }
+    #popup-thanks-container .form-lezvie, #popup-thanks-container .form-man {
+        display: none;
+    }
+    #popup-form .form-lezvie, #popup-form .form-man {
+        display: none;
+    }
+    #popup-discount .form-lezvie, #popup-discount .form-man {
+        display: none;
+    }
+    #popup-discount {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    #popup-discount .form-close {
+        top: 45px;
+        right: 35px;
+    }
+    #popup-discount #popup-discount-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        position: unset;
+        margin-top: 30px;
+        box-shadow: 0px 0px 25px -5px white;
+    }
+    #popup-discount #popup-discount-text {
+        position: unset;
+    }
+    div#popup-thanks {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    #popup-thanks #popup-thanks-container {
+        text-align: center;
+        padding: 0 20px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        left: unset;
+    }
+    #popup-thanks .popup-form-block {
+        position: unset;
+    }
+}
+
+@media screen and (max-width: 834px){
+    body svg {
+        width: 35px;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    #main-container #header {
+        justify-content: space-around;
+    }
+    #menu .logo {
+        order: 1;
+    }
+    #menu .phone {
+        order: 1;
+    }
+    #menu {
+        margin-top: 20px;
+        order: 2;
+    }
+    #main #main-left {
+        text-align: center;
+    }
+    #main #main-right img {
+        display: none;
+        width: 100%;
+        opacity: 0.1;
+    }
+    #about #about-bottom {
+        margin-top: 0;
+    }
+    #about .about-bottom-block {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #about #about-left img {
+        width: 100%;
+    }
+    #price .haircuts-right img {
+        width: 100%;
+    }
+    #masters .slick-slide img {
+        width: 100%;
+    }
+    div#popup-form {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    #popup-form #popup-form-container {
+        width: auto;
+        height: 495px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 25px -5px white;
+    }
+    #popup-form .form-close {
+        top: 15px;
+        right: 15px;
+    }
+    #popup-form .popup-form-block {
+        padding: 0 20px;
+        right: unset;
+        top: 25px;
+    }
+    #popup-form .form-title {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+    #popup-form .form-text {
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    #popup-form .popup-form-block input {
+        margin: 10px 16px;
+        width: 240px;
+        height: 35px;
+        font-size: 14px;
+    }
+    #popup-form .solid-button {
+        margin-top: 10px;
+        width: 100%;
+        height: 45px;
+    }
+
+    div#popup-call {
+        opacity: 1;
+    }
+    #popup-call #popup-call-block {
+        top: 20px;
+        width: 280px;
+        height: 430px;
+        left: unset;
+        margin: 0 auto;
+        box-shadow: 0 0 25px -5px white;
+        border-radius: 20px;
+    }
+    #popup-call .close {
+        top: 15px;
+        right: 15px;
+    }
+    #popup-call #popup-call-container {
+        box-sizing: border-box;
+        padding: 0 20px;
+        width: 280px;
+        height: 430px;
+        background-image: unset;
+    }
+    #popup-call #call-title {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    #popup-call #call-text {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 616px){
+    #about .about-bottom-block {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    #price .haircuts-left{
+        justify-content: space-evenly;
+    }
+    #price .price-name:before {
+        display: none;
+    }
+    #price .price-description {
+        display: none;
+    }
+    #price .price-price {
+        margin-left: 61px;
+    }
+    #price button.solid-button {
+        margin: 0 auto;
+    }
+    #discount #discount-text {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #discount #discount-right {
+        text-align: center;
+    }
+    #discount #discount-right img {
+        width: 70%;
+    }
+    #instagram #instagram-top-right {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #instagram #instagram-red {
+        margin-bottom: 20px;
+    }
+    #footer #footer-bottom {
+         margin-left: 0;
+    }
+    #footer #footer-left {
+        width: 100%;
+        order: 2;
+    }
+    #footer #footer-right {
+        order: 1;
+    }
+    #footer #footer-top {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 520px){
+    #menu {
+        display: none;
+    }
+    #header #menu>a.menu-active {
+        margin: 20px 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-bottom: none;
+        color: #bc1212;
+        font-family: "GilroyRegular", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #menu.menu-active {
+        display: block;
+        background: #000000f0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 50px 0 0;
+        text-align: center;
+    }
+    #header #burger {
+        display: block;
+    }
+    #header #header-close.menu-active {
+        display: block;
+        z-index: 5;
+        position: fixed;
+        top: 13px;
+        right: 10px;
+    }
+    #main #club {
+        width: 50%;
+    }
+    #main #barber {
+        width: 50%;
+    }
+    #masters .slick-arrow {
+        top: 100%;
+    }
+    #masters .slick-prev {
+        left: 30%;
+    }
+    #masters .slick-next {
+        right: 30%;
+    }
+    #masters .master {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #instagram .slick-arrow {
+        top: 105%;
+    }
+    #instagram .slick-prev {
+        left: 30%;
+    }
+    #instagram .slick-next {
+        right: 30%;
+    }
+    #popup-discount #popup-discount-container {
+        padding: 0 15px;
+    }
+    #popup-discount #popup-discount-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #masters .slick-arrow {
+        top: 85%;
+    }
+    #header .phone {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #header #main-title {
+        margin-top: 100px;
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 390px){
+    #masters .slick-arrow {
+        top: 75%;
+    }
+    #price .price-price {
+        margin-left: 0;
+    }
+    #about .about-bottom-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 360px){
+    #masters .slick-arrow {
+        top: 68%;
+    }
+}
