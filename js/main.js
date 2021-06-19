@@ -134,7 +134,7 @@ $(document).ready(() => {
     });
 
                                             //popup thanks
-    $($('.solid-button')[8]).click(() => {
+    $($('.solid-button')[5]).click(() => {
         $('#popup-thanks').show(1000);
         $('#popup-form').hide(1000);
     });
@@ -143,7 +143,7 @@ $(document).ready(() => {
     });
 
                                             //popup discount
-    $($('.solid-button')[5]).click(() => {
+    $($('.solid-button')[2]).click(() => {
         $('#popup-discount').show(1000);
     });
     $('.form-close').click(() => {
